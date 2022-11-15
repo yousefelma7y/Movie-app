@@ -1,0 +1,52 @@
+.main-navbar{
+    border: 0px !important;
+    box-shadow:none !important;
+    background-color: #222121 ;
+   
+}
+.nav-logo{
+    background-color: rgb(229, 44, 44) ;
+}
+.nav-toggler{
+    background-color: rgb(229, 44, 44) !important ;
+}
+.alert-primary{
+    background-color: #222121 !important ;
+}
+
+.alert-nav-link{
+    background-color: #222121;
+    color: #dfdbdbbe !important;
+    position: relative;
+    right: -150px;
+}
+.nav-link{
+    color: #dfdbdbbe !important;
+   
+}
+
+.nav-link:hover{
+    color:white!important;
+
+}
+
+.slide-canovas{
+    background-color: rgba(18, 18, 18, 0.937) !important;
+}
+.close-btn{
+ background-color:rgba(18, 18, 18, 0.937) ;
+ color: #dfdbdbbe ;
+ border: 0px;
+}
+.close-btn:hover{ 
+    color:white
+}
+
+.nav-search{
+    width: 150px !important;
+    background-color: white !important;
+    border: 1px solid  ;
+   
+
+}
+

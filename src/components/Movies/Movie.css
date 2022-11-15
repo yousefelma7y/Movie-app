@@ -1,0 +1,106 @@
+.movie-details{
+    background-color: #1a1919;
+}
+.movie-infos{
+    text-shadow: 5px 5px 10px #000000;
+}
+.movie_backdrop-img{
+    height: 600px;
+    object-fit:cover;
+    object-position: 0 20%;
+}
+
+.movie-posterpath{ 
+    position: relative;
+    top: -300px;
+}
+
+.movie-posterpath-img{
+   width: 65% !important;
+
+}
+.synopsisText{
+    width: 80%;
+}
+
+
+.movie__genre{
+    border: 1px solid white;
+   
+    border-radius: 15px;
+    font-weight: bold;
+    
+}
+
+.rating-star{
+    color:rgb(229, 44, 44) ;
+}
+.movie-btn{
+   
+ padding-top: 5px;
+ height: 40px;
+ border: 1px solid black;
+ border-radius: 15px;
+ font-weight: bold;
+ margin: 20px;
+ color: black;
+ width: 170px;
+ text-align: center;
+ text-shadow: 0px 0px 0px ;  
+
+
+}
+
+.homepage-btn{
+    background-color: rgb(206, 25, 25);
+}
+.homepage-btn:hover{
+    color: black;
+    background-color: rgba(206, 25, 25, 0.823);
+}
+
+.trailer-btn{
+
+ background-color: rgb(255, 225, 0); 
+}
+.trailer-btn:hover{
+    color: black;
+    
+    background-color: rgba(255, 225, 0, 0.817); 
+
+}
+
+.company{
+    text-shadow: 5px 5px 5px #000000;  
+}
+
+@media only screen and (max-width: 900px) { 
+    .movie-btn{  
+        margin: 10px;  
+      }
+}
+@media only screen and (max-width: 767px) { 
+    .movie-posterpath{ 
+        position: relative;
+        top: 0px;
+    }
+    .movie-posterpath-img {
+        width: 100% !important;
+        height: 600px;
+        object-fit:cover;
+        object-position: 0 20%;
+    }
+    .movie__genre{ 
+        border: 1px solid rgb(229, 44, 44);
+    }
+    .rating{
+        color:rgb(229, 44, 44) ;
+    }
+   
+}
+
+@media only screen and (max-width: 430px) { 
+    .movie-btn{  
+      margin: 3px;  
+    }
+}

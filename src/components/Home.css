@@ -1,0 +1,123 @@
+.home-top{
+    height: 300px;
+    background-color: #222121 ;
+   
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+.home-card{
+    border-radius: 20px;
+    background-color: #222121 ;
+
+}
+.posterImage__overlay{
+
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+
+}
+.movie-cart{
+    height:400px;
+    border-radius: 20px;
+    border: 1px solid rgba(118, 13, 4, 0.781);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.movie-caption{
+    font-size: 13px;
+}
+.cards__overlay{
+    background-image: linear-gradient(rgba(117, 117, 4, 0), rgba(0, 0, 0, 0.502));
+    opacity: 0;
+    height: 100%;
+    border-radius: 20px;
+    transition: opacity 0.8s ease-in-out ; 
+   
+}
+.cards__overlay:hover{
+    opacity: 1;
+}
+
+.card-content{
+    padding-top: 50%;
+}
+.active-btn{
+    border: 0px;
+    color: white; 
+    border-bottom: 4px solid rgb(229, 44, 44);  
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(94, 93, 93, 0.502));
+    background-color: #222121 ;
+
+}
+.home-btn{
+    color: gray ;
+    border: 0px;
+    height: 50px;
+    background-color: #222121 ;
+
+}
+.home-btn:hover{ 
+    color: white;
+  
+}
+.home-btn:active{ 
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(94, 93, 93, 0.502));
+   
+   
+}
+.carousel-skelton{
+    height: 550px;
+    border-radius: 20px !important;
+
+}
+.skelton-cart{
+    border-radius: 20px !important;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 991px) { 
+    .home-top{
+        height: 10px;
+    }   
+    .carousel-inner{
+        border-radius: 0px;
+    }
+    .carousel-skelton{
+       
+        border-radius: 0px !important;
+    
+    }
+    
+    
+}
+
+@media only screen and (max-width: 780px) { 
+
+    .carousel-skelton{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 640px) { 
+
+    .carousel-skelton{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 460px) { 
+
+    .carousel-skelton{
+        height: 220px;
+    }
+}
