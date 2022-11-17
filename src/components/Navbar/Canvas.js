@@ -32,7 +32,7 @@ const Canvas = () => {
         <Offcanvas.Header>
          
         <Navbar.Brand href="/" className='nav-logo p-2 text-white fw-bold rounded '>
-          <BiMoviePlay/> <span className='px-2'>LIGHT’S OUT</span>
+          <BiMoviePlay/> <span className='px-2'>LIGHTS OUT</span>
         </Navbar.Brand> 
         <button type="button" className="close-btn fs-3" aria-label="Close" onClick={handleClose}><AiOutlineClose /></button>    
         

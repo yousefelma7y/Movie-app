@@ -13,7 +13,7 @@ const Navigation = () => {
   return (
     <Navbar className='main-navbar' collapseOnSelect variant="dark"  expand="lg">
     <Container fluid className=''>   
-       <Navbar.Brand href="/" className='nav-logo p-2 fw-bold rounded '><BiMoviePlay/> <span className='px-2'>LIGHT’S OUT</span>  </Navbar.Brand>
+       <Navbar.Brand href="/" className='nav-logo p-2 fw-bold rounded '><BiMoviePlay/> <span className='px-2'>LIGHTS OUT</span>  </Navbar.Brand>
        <Canvas/>
     </Container>
   </Navbar>
